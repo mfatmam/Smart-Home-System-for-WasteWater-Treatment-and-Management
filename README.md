@@ -61,4 +61,25 @@ This section outlines the water treatment system, which purifies wastewater and 
 - All sensor data and water quality determinations are transmitted to a cloud platform for real-time monitoring and historical analysis.
 - Users can monitor water quality through a cloud-based dashboard and receive alerts via email or SMS if there are issues (e.g., non-potable water or changes in quality).
 
-
+## Dataset
+The [dataset](https://www.kaggle.com/adityakadiwal/water-potability) contains water quality metrics for 3276 different water bodies.
+1. pH value:
+pH is crucial for assessing the acid-base balance of water, indicating whether it's acidic or alkaline. The World Health Organization (WHO) recommends a pH range of 6.5 to 8.5 for safe water. In the current analysis, pH values ranged from 6.52 to 6.83, staying within WHO guidelines.
+2. Hardness:
+Water hardness is mainly due to dissolved calcium and magnesium salts, which come from geologic formations the water travels through. The amount of time water contacts these materials determines its hardness. Hard water is known for its reduced ability to lather soap, caused by calcium and magnesium.
+3. Solids (Total dissolved solids - TDS):
+Water can dissolve various inorganic and organic minerals like potassium, calcium, sodium, and magnesium. High TDS levels can affect water taste and appearance. WHO recommends a desirable TDS limit of 500 mg/l and a maximum of 1,000 mg/l for drinking water.
+4. Chloramines:
+Chloramines, formed when ammonia is added to chlorine, are used to disinfect public water systems. According to health standards, chlorine levels up to 4 mg/L (or 4 ppm) are safe for drinking water.
+5. Sulfate:
+Sulfates are naturally found in soil, rocks, and water sources. While sulfate levels in freshwater typically range from 3 to 30 mg/L, concentrations can reach up to 1,000 mg/L in certain regions. Seawater contains approximately 2,700 mg/L of sulfates.
+6. Conductivity:
+Pure water doesn’t conduct electricity well, but increasing ion concentrations improve its conductivity. Electrical conductivity (EC) is determined by the amount of dissolved solids in water. WHO standards suggest EC should not exceed 400 μS/cm for safe water.
+7. Organic_carbon:
+TOC refers to the total carbon content in organic compounds, coming from decaying natural organic matter or synthetic sources. The US EPA recommends a TOC level below 2 mg/L for treated drinking water and below 4 mg/L for source water used in treatment.
+8. Trihalomethanes:
+THMs are by-products of chlorine disinfection. Their concentration in water depends on the amount of organic matter, chlorine usage, and water temperature. Levels of up to 80 ppm are considered safe in drinking water.
+9. Turbidity:
+Turbidity measures the presence of suspended particles in water, indicating its clarity. It also reflects waste discharge quality concerning colloidal matter. The turbidity value at Wondo Genet Campus (0.98 NTU) is well below the WHO recommended limit of 5.00 NTU.
+10. Potability:
+Potability indicates whether water is safe for human consumption, with a value of 1 meaning potable and 0 indicating non-potable.
