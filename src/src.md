@@ -1,5 +1,5 @@
 For our Smart Home System for Wastewater Management and Treatment project, here is a list of materials that would typically be used:
-1. Microcontroller:
+1. Microcontroller:<br>
 Arduino Uno: Used for interfacing sensors that measure water quality parameters.
 2. Single-Board Computer:
 Raspberry Pi: Handles advanced data processing, machine learning predictions, and cloud communication.
