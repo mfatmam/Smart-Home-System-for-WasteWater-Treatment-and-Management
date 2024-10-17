@@ -9,10 +9,10 @@ This project develops a smart home system for wastewater treatment and managemen
 <br> <!-- This adds space between the title and the table of contents -->
 
 ## Table of contents 
-1. [Problem Statement](#🚩-problem-statement)
-2. [Solution](#🎯-solution)
-3. [Water Treatment and Management Process](#⏩-water-treatment-and-management-process)
-4. [Dataset](#📊-dataset)
+1. [Problem Statement](#problem-statement)
+2. [Solution](#solution)
+3. [Water Treatment and Management Process](#water-treatment-and-management-process)
+4. [Dataset](#dataset)
 5. ## Problem Statement
 Household water demand has increased due to population growth, urbanization, and more water-intensive lifestyles. As cities grow, water supply systems are under pressure to meet daily needs like cooking, cleaning, and gardening. Climate change, with changing rainfall patterns and droughts, makes this problem worse by putting more strain on water resources. This highlights the need for better water management solutions, including reliable methods to assess and ensure household water is safe to use.
 ## Solution
